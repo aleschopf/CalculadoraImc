@@ -13,7 +13,8 @@ Esse projeto é a resposta para um exercício passado no programa Santander Code
 > Exemplo:
 >
 > ```language 
-> Informe sua altura em metros? 1,9 
+> Informe sua altura em metros? 
+> 1,9 
 > Informe seu peso em Kg?
 > 72,2
 > O valor do seu IMC é 20 (considerado Peso normal)
