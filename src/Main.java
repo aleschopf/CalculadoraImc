@@ -4,16 +4,20 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Insira a sua altura:");
+        System.out.println("/----------------------------------------------\\");
+        System.out.println("|              Calculadora de IMC              |");
+        System.out.println("\\----------------------------------------------/");
+
+        System.out.println("\nInsira a sua altura:");
         double altura = scanner.nextDouble();
 
-        System.out.println("Insira o seu peso:");
+        System.out.println("\nInsira o seu peso:");
         double peso = scanner.nextDouble();
 
         double imc = calcularImc(altura, peso);
         String faixaDePeso = verificarFaixaDePeso(imc).toLowerCase();
 
-        System.out.printf("Seu IMC é %.2f e sua faixa de peso é %s.%n", imc, faixaDePeso);
+        System.out.printf("\n\nSeu IMC é %.2f e sua faixa de peso é %s.%n", imc, faixaDePeso);
 
         scanner.close();
     }
